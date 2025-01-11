@@ -24,23 +24,6 @@ This project is a social networking application that allows users to connect wit
 - **Authentication**: 
   - 🔐 JWT (JSON Web Tokens for secure authentication)
   
-## 📂 Project Structure
-
-```plaintext
-├── client/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── App.js
-│   └── public/
-├── server/  
-│   ├── models/ 
-│   ├── routes/ 
-│   ├── controllers/ 
-│   └── server.js
-├── README.md
-└── package.json
-
 🚀 Installation and Setup
 
 Prerequisites
@@ -56,8 +39,7 @@ Steps to Run
 
 1. Clone the repository:
 
-git clone https://github.com/pritambose0/Friend-Recommendation.git
-cd Friend-Recommendation
+git clone git@github.com:akarsh2312/Tutedude_Friend_Recommendation.git
 
 
 2. Install dependencies for both frontend and backend:
@@ -74,6 +56,11 @@ Create a .env file in the root of the server directory and include the following
 
 MONGODB_URI=<Your MongoDB URI>
 JWT_SECRET=<Your JWT secret key>
+
+Similary Create a .env file in the root of the client directory and include the following variables:
+
+VITE_API_BASE_URL=<Your backend url>
+
 
 
 
@@ -93,7 +80,7 @@ npm start
 
 5. Open the application in your browser at:
 
-http://localhost:3000
+http://localhost:5173
 
 
 
@@ -124,27 +111,7 @@ Friend Recommendation
 GET /api/v1/recommendations: Get friend recommendations based on mutual friends and interests
 
 
-🤝 Contributing
 
-1. Fork the repository.
-
-
-2. Create a new branch (git checkout -b feature-branch).
-
-
-3. Commit your changes (git commit -m 'Add some feature').
-
-
-4. Push to the branch (git push origin feature-branch).
-
-
-5. Open a pull request.
-
-
-
-📧 Contact
-
-For any inquiries or issues, feel free to reach out via email or open an issue on GitHub.
 
 
 
